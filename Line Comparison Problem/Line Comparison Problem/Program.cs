@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("======== WELCOME TO LINE COMPARISON PROGRAM ========");
+
+            lineComparison lineComparison = new lineComparison();
+            lineComparison.lenthOfLine();
+
         }
     }
 }
